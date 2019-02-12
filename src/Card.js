@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import Button from './Button';
 
 class Card extends React.Component {
 	render() {
@@ -12,7 +13,7 @@ class Card extends React.Component {
 					<p>Hello, World!</p>
 				</div>
 				<div className="Card-footer">
-					<div className="Button">Submit</div>
+					<Button />
 				</div>
 			</div>
 		)
