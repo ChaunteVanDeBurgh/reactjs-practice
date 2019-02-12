@@ -8,12 +8,12 @@ class Card extends React.Component {
 				<div className="Card-header">
 					<h1>Hi, World!</h1>
 				</div>
-					<div className="Card-body">
-						<p>Hello, World!</p>
-					</div>
-					<div className="Card-footer">
-						<p>Goodbye, World!</p>
-					</div>
+				<div className="Card-body">
+					<p>Hello, World!</p>
+				</div>
+				<div className="Card-footer">
+					<div className="Button">Submit</div>
+				</div>
 			</div>
 		)
 	}
