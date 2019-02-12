@@ -5,8 +5,10 @@ h1 {
 
 .Card {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 16.5rem;
-	height: 19rem;
+	height: 22rem;
 	box-shadow: 1px 1px;
 	background-color: #c0d1ed;
 	margin: 1rem;
@@ -14,8 +16,16 @@ h1 {
 
 .Card-header {
 	display: flex;
-	width: 100%;
 	padding: 1rem;
 	height: 2.5rem;
 	border-bottom: 1px solid grey;
 }
+
+.Card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	height: 100%;
+	padding: 1rem;
+}
+
