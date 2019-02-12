@@ -1,9 +1,21 @@
+h1 {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
 .Card {
 	display: flex;
-	width: 14rem;
-	height: 18rem;
+	width: 16.5rem;
+	height: 19rem;
 	box-shadow: 1px 1px;
 	background-color: #c0d1ed;
 	margin: 1rem;
+}
+
+.Card-header {
+	display: flex;
+	width: 100%;
 	padding: 1rem;
+	height: 2.5rem;
+	border-bottom: 1px solid grey;
 }

@@ -4,8 +4,10 @@ import './Card.css';
 class Card extends React.Component {
 	render() {
 		return (
-			<div>
-				<h1 className="Card">Hi, World!</h1>
+			<div className="Card">
+				<div className="Card-header">
+					<h1>Hi, World!</h1>
+				</div>
 			</div>
 		)
 	}
