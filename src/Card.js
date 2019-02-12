@@ -3,7 +3,11 @@ import './Card.css';
 
 class Card extends React.Component {
 	render() {
-		return <h1 className="Card">Hi, World!</h1>
+		return (
+			<div>
+				<h1 className="Card">Hi, World!</h1>
+			</div>
+		)
 	}
 }
 
