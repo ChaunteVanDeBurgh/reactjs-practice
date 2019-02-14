@@ -7,7 +7,7 @@ class Button extends React.Component {
 		this.state = { color: 'red' };
 	}
 	handleClick() {
-		alert('Hello, World... ALERT!');
+		document.getElementById('myCard').style.backgroundColor = 'red';
 	}
 	render() {
 		return (

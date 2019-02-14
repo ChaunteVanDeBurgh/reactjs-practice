@@ -5,7 +5,7 @@ import Button from './Button';
 class Card extends React.Component {
 	render() {
 		return (
-			<div className="Card">
+			<div className="Card" id="myCard">
 				<div className="Card-header">
 					<h1>Hi, World!</h1>
 				</div>
